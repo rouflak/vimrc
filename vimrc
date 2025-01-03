@@ -125,27 +125,7 @@ filetype plugin indent on    " required
 """"""                   CUSTOM                                             """"""""
 """"""                         PLUGINS                                      """"""""
 """"""                                CONFIGURATIONS                        """"""""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" PROJECTS
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:project_use_nerdtree = 1
-let g:project_enable_welcome = 1
-
-" au VimEnter * Welcome
-noremap <leader>W :Welcome<CR>
-
-set rtp+=~/.vim/bundle/vim-project/
-call project#rc("~/Workspace/happywait-platform")
-
-Project 'happywait/backend' , 'backend'
-Project 'happywait/frontend' , 'front'
-Project 'hw-crm-sync' , 'crmsync'
-Project 'hw-module-event', 'events'
-
-
-
+""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "AUTOCOMPLETE
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
